@@ -1,0 +1,16 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90px;
+  box-sizing: border-box;
+}
+
+.board .button {
+  width: 30px;
+  box-sizing: border-box;
+  height: 30px;
+  border: 1px solid #444;
+  text-align: center;
+  margin-left: -1px;
+  margin-top: -1px;
+}
